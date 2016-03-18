@@ -5,3 +5,4 @@ Version 03181324
     - Can move on the board
     - Can push crates
     - Can win
+    - Debug messages present everywhere
