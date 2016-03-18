@@ -1,0 +1,7 @@
+Version 03181324
+  * Base game completed:
+    - Can only play
+    - Can load only one level
+    - Can move on the board
+    - Can push crates
+    - Can win
