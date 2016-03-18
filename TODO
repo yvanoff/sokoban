@@ -1,0 +1,49 @@
+Current stage: Alpha
+
+Alpha:
+    - Player can move in a level and push crates
+    - Player can onlymove on a empty tile or a tile with a crate if there are no crates next to it
+    - Player wins if all crates are on objectives
+    - Levels are loaded from niveaux.lvl
+
+Beta:
+    - Code is rewritten to be more efficient and clear
+    - Files are now located in sudirectories
+    - Player can create and edit a level. The editor ships a small menu
+    - Created levels can be saved in niveaux.lvl
+
+1.0:
+    - Victory screen on completion of a level
+    - Tutorial window appears when lauching the game or the editor
+    - Current game can be saved by pressing s, and reloaded next time the game is launched from the menu. Only one game at a time may be saved.
+    - Possible to choose between going back to menu or switching to next level on victory.
+
+1.1:
+    - Possible to save numerous games. Games are identified by a timestamp.
+    - Saves may be deleted.
+    - Possible to choose which save/level to load.
+
+1.2:
+    - Escape now opens a quick menu instead of leaving the game.
+    - Quick menu options:
+        - Saving the current game.
+        - Loading another level/save
+        - Going back to main menu.
+        - Leaving the game.
+
+1.3:
+    - Supports different adventures. An adventure is a succession of levels.
+    - May now load a single level, or an aventure.
+    - May load differents levels in an adventure, if the level has already been reached.
+    - May save a single level or an adventure.
+    - May create adventures or single levels.
+
+1.4:
+    - Rewriting the menu by using SDL_ttf instead of a picture.
+    - May choose various languages.
+
+1.5:
+    - Support various board sizes.
+
+1.6:
+    - Support sound with SDL_mixer.
